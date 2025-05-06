@@ -33,7 +33,7 @@
     window.githubLogin = function () {
       const provider = new GithubAuthProvider();
       signInWithPopup(auth, provider)
-        .then(() => window.location.href = "WRO.html")
+        .then(() => window.location.href = "WRO().html")
         .catch((e) => alert("GitHub login failed: " + e.message));
     };
    </script>
